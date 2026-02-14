@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "my-bucket" {
-  name          = "demo-bucket-1"
+  name          = "demo-bucket-100100111"
   location      = "us-central1"
   project = "Github-GCP-WIF-Test"
   force_destroy = true
@@ -7,7 +7,7 @@ resource "google_storage_bucket" "my-bucket" {
 }
 
 resource "google_storage_bucket" "my-bucket2" {
-  name          = "demo-bucket-2"
+  name          = "demo-bucket-200100111"
   location      = "us-central1"
   project = "Github-GCP-WIF-Test"
   force_destroy = true
